@@ -14,51 +14,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# 189728 = IRK82
-# 201178 = IRL10B
-# 213821 = ICL26
-# 221202 = ICL39
-# 236517 = IML70C
-# 237179 = IML73
-# 237867 = IML74B
-# 238432 = IML74E
-# 238649 = IML74G
-# 239410 = IML74K
-# 262866 = IMM30D
-# 299849 = IMM76D
-# end ics-mr1
-# start jb-dev
-# 241968 = IRM03
-# 397816 = JRO03B
-# 398337 = JRO03C
-# 405518 = JRO03H
-# 438695 = JRO03R
-# 463694 = JZ054G
-# end jb-dev
-# start jb-mr1-dev
-# 465036 = JOO75
-# end jb-mr1-dev
-BRANCH=jb-mr1-dev
-if test $BRANCH=ics-mr1
-then
-  ZIP=mysid-ota-299849.zip
-  BUILD=imm76d
-fi #ics-mr1
-if test $BRANCH=jb-dev
-then
-  ZIP=mysid-ota-405518.zip
-  BUILD=jro03h
-fi # jb-dev
-if test $BRANCH=jb-mr1-dev
-then
-  ZIP=mysid-ota-465036.zip
-  BUILD=joo75
-fi # jb-mr1-dev
-ROOTDEVICE=toro
-DEVICE=toro
+(cd ../../../../out/target/product/toroplus ; zip -r ../../../../device/samsung/toroplus/self-extractors/full_toroplus-pseudo_ota.zip system)
+ZIP=full_toroplus-pseudo_ota.zip
+BUILD=jzo54k
+ROOTDEVICE=toroplus
+DEVICE=toroplus
 MANUFACTURER=samsung
 
-for COMPANY in broadcom csr imgtec invensense nxp samsung ti widevine
+for COMPANY in broadcom csr imgtec invensense nxp samsung ti
 do
   echo Processing files from $COMPANY
   rm -rf tmp
@@ -107,30 +70,21 @@ do
   samsung)
     TO_EXTRACT="\
             system/app/BIP.apk \
-            system/app/CellBroadcastReceiver.apk \
-            system/app/IMSFramework.apk \
-            system/app/RTN.apk \
             system/app/SDM.apk \
-            system/app/SPG.apk \
+            system/app/SecPhone.apk \
+            system/app/SprintExtension.apk \
             system/app/SyncMLSvc.apk \
             system/bin/fRom \
             system/lib/libsecril-client.so \
             system/lib/libsyncml_core.so \
             system/lib/libsyncml_port.so \
             system/lib/lib_gsd4t.so \
-            system/vendor/lib/libims.so \
-            system/vendor/lib/libims_jni.so \
             system/vendor/lib/libsec-ril_lte.so \
             "
     ;;
   ti)
     TO_EXTRACT="\
             system/vendor/firmware/ducati-m3.bin \
-            "
-    ;;
-  widevine)
-    TO_EXTRACT="\
-            system/lib/libdrmdecrypt.so \
             "
     ;;
   esac

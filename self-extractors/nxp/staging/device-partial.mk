@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# NXP blob(s) necessary for Toro hardware
+# NXP blob(s) necessary for ToroPlus hardware
 PRODUCT_PACKAGES := \
     libpn544_fw

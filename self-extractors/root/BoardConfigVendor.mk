@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := toro/BoardConfigPartial.mk
+LOCAL_STEM := toroplus/BoardConfigPartial.mk
 
 -include vendor/broadcom/$(LOCAL_STEM)
 -include vendor/csr/$(LOCAL_STEM)
@@ -21,4 +21,3 @@ LOCAL_STEM := toro/BoardConfigPartial.mk
 -include vendor/nxp/$(LOCAL_STEM)
 -include vendor/samsung/$(LOCAL_STEM)
 -include vendor/ti/$(LOCAL_STEM)
--include vendor/widevine/$(LOCAL_STEM)

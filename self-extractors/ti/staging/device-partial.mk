@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# TI blob(s) necessary for Toro hardware
+# TI blob(s) necessary for ToroPlus hardware
 PRODUCT_PACKAGES := \
     ducati-m3

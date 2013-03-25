@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# CSR blob(s) necessary for Toro hardware
+# CSR blob(s) necessary for ToroPlus hardware
 PRODUCT_PACKAGES := \
     sirfgps \
     gps.omap4

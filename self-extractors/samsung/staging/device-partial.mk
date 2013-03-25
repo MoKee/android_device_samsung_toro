@@ -12,19 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Samsung blob(s) necessary for Toro hardware
+# Samsung blob(s) necessary for ToroPlus hardware
 PRODUCT_PACKAGES := \
     BIP \
-    IMSFramework \
-    RTN \
     SDM \
-    SPG \
+    SecPhone \
+    SprintExtension \
     SyncMLSvc \
     fRom \
     libsecril-client \
     libsyncml_core \
     libsyncml_port \
     lib_gsd4t \
-    libims \
-    libims_jni \
     libsec-ril_lte

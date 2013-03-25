@@ -46,8 +46,8 @@ Value* UpdateCdmaModemFn(const char* name, State* state, int argc, Expr* argv[])
     return StringValue(strdup(result == 0 ? "t" : ""));
 }
 
-void Register_librecovery_updater_toro() {
-    fprintf(stderr, "installing samsung updater extensions for toro\n");
+void Register_librecovery_updater_toroplus() {
+    fprintf(stderr, "installing samsung updater extensions for toroplus\n");
 
     RegisterFunction("samsung.update_cdma_modem", UpdateCdmaModemFn);
 }
