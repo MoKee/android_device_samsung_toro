@@ -1,6 +1,6 @@
 [
  {
-   "repository": "android_kernel_samsung_tuna",
+   "repository": "MoKee/android_kernel_samsung_tuna",
    "target_path": "kernel/samsung/tuna",
    "branch": "jb-mr1_mkt"
  }
