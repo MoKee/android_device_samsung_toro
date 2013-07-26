@@ -2,11 +2,17 @@
  {
    "repository": "MoKee/android_kernel_samsung_tuna",
    "target_path": "kernel/samsung/tuna",
-   "branch": "jb-mr1_mkt"
+   "branch": "jb-mr2_mkt"
  },
  {
    "repository": "MoKee/android_vendor_samsung_toro",
    "target_path": "vendor/samsung/toro",
    "branch": "jb-mr1_mkt"
+ },
+ {
+   "repository": "android_device_sample",
+   "target_path": "device/sample",
+   "branch": "cm-10.2",
+   "remote": "cyanogen"
  }
 ]
