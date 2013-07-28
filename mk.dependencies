@@ -1,13 +1,11 @@
 [
  {
    "repository": "MoKee/android_kernel_samsung_tuna",
-   "target_path": "kernel/samsung/tuna",
-   "branch": "jb-mr2_mkt"
+   "target_path": "kernel/samsung/tuna"
  },
  {
    "repository": "MoKee/android_vendor_samsung_toro",
-   "target_path": "vendor/samsung/toro",
-   "branch": "jb-mr1_mkt"
+   "target_path": "vendor/samsung/toro"
  },
  {
    "repository": "android_device_sample",
