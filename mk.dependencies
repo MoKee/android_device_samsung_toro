@@ -1,10 +1,10 @@
 [
  {
-   "repository": "MoKee/android_kernel_samsung_tuna",
+   "repository": "android_kernel_samsung_tuna",
    "target_path": "kernel/samsung/tuna"
  },
  {
-   "repository": "MoKee/android_vendor_samsung_toro",
+   "repository": "android_vendor_samsung_toro",
    "target_path": "vendor/samsung/toro"
  },
  {
