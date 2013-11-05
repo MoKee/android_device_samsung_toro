@@ -16,7 +16,7 @@ persist.radio.imsallowmtsms=1
 # Default ecclist
 ro.ril.ecclist=112,911,#911,*911
 
-# Default to CDMA/EvDo auto Network Mode
+# Default to LTE/CDMA Network Mode
 ro.telephony.default_network=7
 
 # GPU producer to CPU consumer not supported

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Portions Copyright (C) 2012 VMware, Inc. All Rights Reserved.-->
 <!-- Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,15 +15,6 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Mobile network settings, network mode choices for a device supporting CDMA and LTE [CHAR LIMIT=25] -->
-    <string-array name="preferred_network_mode_choices_lte">
-        <item>LTE/CDMA</item>
-        <item>CDMA/EvDo auto</item>
-    </string-array>
-    <string-array name="preferred_network_mode_values_lte" translatable="false">
-        <item>"7"</item>
-        <item>"4"</item>
-    </string-array>
 
     <string name="cell_broadcast_sms">Emergency Alerts SMS</string>
 

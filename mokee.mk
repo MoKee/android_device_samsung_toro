@@ -1,6 +1,3 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/mk/config/cdma.mk)
-
 # Release name
 PRODUCT_RELEASE_NAME := GN-CDMA
 
@@ -8,11 +5,11 @@ PRODUCT_RELEASE_NAME := GN-CDMA
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Inherit some common CM stuff.
+# Inherit some common MK stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/toro/full_toro.mk)
+$(call inherit-product, device/samsung/toro/aosp_toro.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
@@ -25,4 +22,4 @@ PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
 
 #Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT="google/mysid/toro:4.2.2/JDQ39/573038:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.2.2 JDQ39 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT="google/mysid/toro:4.3/JWR66V/737497:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.3 JWR66V 737497 release-keys"
