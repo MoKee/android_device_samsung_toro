@@ -4,13 +4,11 @@
    "target_path": "kernel/samsung/tuna"
  },
  {
+   "repository": "android_device_samsung_tuna",
+   "target_path": "device/samsung/tuna"
+ },
+ {
    "repository": "android_vendor_samsung_toro",
    "target_path": "vendor/samsung/toro"
  },
- {
-   "repository": "android_device_sample",
-   "target_path": "device/sample",
-   "branch": "cm-10.2",
-   "remote": "cyanogen"
- }
 ]
