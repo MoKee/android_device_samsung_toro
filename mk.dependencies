@@ -10,5 +10,5 @@
  {
    "repository": "android_vendor_samsung_toro",
    "target_path": "vendor/samsung/toro"
- },
+ }
 ]
