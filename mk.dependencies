@@ -8,6 +8,10 @@
    "target_path": "device/samsung/tuna"
  },
  {
+   "repository": "android_vendor_samsung_tuna",
+   "target_path": "vendor/samsung/tuna"
+ },
+ {
    "repository": "android_vendor_samsung_toro",
    "target_path": "vendor/samsung/toro"
  }
